@@ -40,6 +40,7 @@ let EitherArray : string[] | Number[] = [1,2,3]
 // In below example "MixArray" can have string, Number, boolean array together combined. 
 let MixArray : (string | number | boolean)[] = [1,2,"3",true,"4",5,false,"6"]
 
+let MultiMixArray : number[] | (string | number | boolean)[] = [1,2,3,4,"2",true,false]
 
 
 // Important Note : Suppose in an system if we want that the values of the variable can be choosed from the fixed values which we 
@@ -50,3 +51,5 @@ let CardType: "Master Card" | "Visa" | "American Express";
 
 CardType = "American Express";
 CardType = "Rupay"; //// this will give error because we have set the value of "CardType" outside the values we are pre-defined.
+
+export {}
