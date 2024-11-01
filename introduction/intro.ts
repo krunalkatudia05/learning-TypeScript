@@ -1,2 +1,4 @@
-let user={name:"krunal",age:19}
-console.log(user.email)
+let greeting: string = 'Hi from greetings Variable'
+console.log(greeting);
+
+export {}

@@ -1,2 +1,4 @@
-var user = { name: "krunal", age: 19 };
-console.log(user.email);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var greeting = 'Hi from greetings Variable';
+console.log(greeting);
